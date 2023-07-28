@@ -1,0 +1,336 @@
+ spice-vdagent-0.20.0-5.el8.x86_64
+  sqlite-3.26.0-18.0.1.el8_8.x86_64
+  sqlite-libs-3.26.0-18.0.1.el8_8.x86_64
+  sscg-3.0.0-7.el8.x86_64
+  sssd-2.8.2-2.0.1.el8.x86_64
+  sssd-ad-2.8.2-2.0.1.el8.x86_64
+  sssd-client-2.8.2-2.0.1.el8.x86_64
+  sssd-common-2.8.2-2.0.1.el8.x86_64
+  sssd-common-pac-2.8.2-2.0.1.el8.x86_64
+  sssd-ipa-2.8.2-2.0.1.el8.x86_64
+  sssd-kcm-2.8.2-2.0.1.el8.x86_64
+  sssd-krb5-2.8.2-2.0.1.el8.x86_64
+  sssd-krb5-common-2.8.2-2.0.1.el8.x86_64
+  sssd-ldap-2.8.2-2.0.1.el8.x86_64
+  sssd-nfs-idmap-2.8.2-2.0.1.el8.x86_64
+  sssd-proxy-2.8.2-2.0.1.el8.x86_64
+  strace-5.18-2.el8.x86_64
+  sudo-1.8.29-10.el8.x86_64
+  sysstat-11.7.3-9.0.1.el8.x86_64
+  systemd-239-74.0.2.el8_8.x86_64
+  systemd-container-239-74.0.2.el8_8.x86_64
+  systemd-libs-239-74.0.2.el8_8.i686
+  systemd-libs-239-74.0.2.el8_8.x86_64
+  systemd-pam-239-74.0.2.el8_8.x86_64
+  systemd-udev-239-74.0.2.el8_8.x86_64
+  systemtap-4.8-2.0.1.el8.x86_64
+  systemtap-client-4.8-2.0.1.el8.x86_64
+  systemtap-devel-4.8-2.0.1.el8.x86_64
+  systemtap-runtime-4.8-2.0.1.el8.x86_64
+  tar-2:1.30-9.el8.x86_64
+  target-restore-2.1.75-4.0.1.el8.noarch
+  tcpdump-14:4.9.3-3.el8.x86_64
+  teamd-1.31-4.el8.x86_64
+  tigervnc-1.12.0-15.el8_8.x86_64
+  tigervnc-icons-1.12.0-15.el8_8.noarch
+  tigervnc-license-1.12.0-15.el8_8.noarch
+  tigervnc-server-minimal-1.12.0-15.el8_8.x86_64
+  tpm2-tools-4.1.1-5.el8.x86_64
+  tpm2-tss-2.3.2-4.el8.x86_64
+  trace-cmd-2.7-10.0.1.el8.x86_64
+  tuned-2.20.0-1.0.1.el8.noarch
+  tzdata-2023c-1.el8.noarch
+  tzdata-java-2023c-1.el8.noarch
+  udisks2-2.9.0-13.el8.x86_64
+  udisks2-iscsi-2.9.0-13.el8.x86_64
+  udisks2-lvm2-2.9.0-13.el8.x86_64
+  unbound-libs-1.16.2-5.el8.x86_64
+  unicode-ucd-11.0.0-2.el8.noarch
+  unzip-6.0-46.0.1.el8.x86_64
+  upower-0.99.7-4.el8_7.x86_64
+  usbredir-0.12.0-4.el8.x86_64
+  usermode-1.113-2.el8.x86_64
+  util-linux-2.32.1-42.el8_8.x86_64
+  util-linux-user-2.32.1-42.el8_8.x86_64
+  valgrind-1:3.19.0-1.el8.x86_64
+  valgrind-devel-1:3.19.0-1.el8.x86_64
+  vdo-6.2.7.17-14.el8.x86_64
+  vim-common-2:8.0.1763-19.0.1.el8_6.4.x86_64
+  vim-enhanced-2:8.0.1763-19.0.1.el8_6.4.x86_64
+  vim-filesystem-2:8.0.1763-19.0.1.el8_6.4.noarch
+  vim-minimal-2:8.0.1763-19.0.1.el8_6.4.x86_64
+  vino-3.22.0-11.el8.x86_64
+  virt-what-1.25-3.el8.x86_64
+  vsftpd-3.0.3-35.el8.x86_64
+  wavpack-5.1.0-16.el8.x86_64
+  webkit2gtk3-2.38.5-1.el8_8.4.x86_64
+  webkit2gtk3-jsc-2.38.5-1.el8_8.4.x86_64
+  webrtc-audio-processing-0.3-10.el8.x86_64
+  wget-1.19.5-11.0.1.el8.x86_64
+  which-2.21-18.el8.x86_64
+  wpa_supplicant-1:2.10-1.el8.x86_64
+  wsmancli-2.6.0-11.el8.x86_64
+  xdg-desktop-portal-1.8.1-1.0.1.el8.x86_64
+  xdg-desktop-portal-gtk-1.8.0-1.el8.x86_64
+  xfsdump-3.1.8-4.el8.x86_64
+  xfsprogs-5.4.0-1.0.5.el8.x86_64
+  xmlrpc-c-1.51.0-8.el8.x86_64
+  xmlrpc-c-client-1.51.0-8.el8.x86_64
+  xorg-x11-drv-intel-2.99.917-41.20210115.el8.x86_64
+  xorg-x11-font-utils-1:7.5-41.el8.x86_64
+  xorg-x11-server-Xorg-1.20.11-15.el8.x86_64
+  xorg-x11-server-Xwayland-21.1.3-10.el8.x86_64
+  xorg-x11-server-common-1.20.11-15.el8.x86_64
+  xz-5.2.4-4.el8_6.x86_64
+  xz-devel-5.2.4-4.el8_6.x86_64
+  xz-libs-5.2.4-4.el8_6.i686
+  xz-libs-5.2.4-4.el8_6.x86_64
+  yajl-2.1.0-11.el8.x86_64
+  yum-4.7.0-16.0.2.el8_8.noarch
+  zenity-3.28.1-2.el8.x86_64
+  zlib-1.2.11-21.el8_7.i686
+  zlib-1.2.11-21.el8_7.x86_64
+  zlib-devel-1.2.11-21.el8_7.x86_64
+  zsh-5.5.1-10.el8.x86_64
+Installed:
+  NetworkManager-initscripts-updown-1:1.40.16-1.0.1.el8.noarch
+  ansible-core-2.14.2-3.0.1.el8.x86_64
+  binutils-devel-2.30-119.0.1.el8.x86_64
+  clang-resource-filesystem-15.0.7-1.0.1.module+el8.8.0+20962+7ae483cf.x86_64
+  environment-modules-4.5.2-3.el8.x86_64
+  gcc-plugin-annobin-8.5.0-18.0.2.el8.x86_64
+  gcc-toolset-12-binutils-2.38-17.el8.x86_64
+  gcc-toolset-12-binutils-gold-2.38-17.el8.x86_64
+  gcc-toolset-12-gcc-12.2.1-7.4.el8.x86_64
+  gcc-toolset-12-gcc-c++-12.2.1-7.4.el8.x86_64
+  gcc-toolset-12-libstdc++-devel-12.2.1-7.4.el8.x86_64
+  gcc-toolset-12-runtime-12.0-6.el8.x86_64
+  glibc-gconv-extra-2.28-225.0.3.el8.i686
+  glibc-gconv-extra-2.28-225.0.3.el8.x86_64
+  grub2-tools-efi-1:2.02-148.0.3.el8.x86_64
+  iwlax2xx-firmware-999:20230315-999.18.el8.noarch
+  kernel-4.18.0-477.13.1.el8_8.x86_64
+  kernel-core-4.18.0-477.13.1.el8_8.x86_64
+  kernel-devel-4.18.0-477.13.1.el8_8.x86_64
+  kernel-modules-4.18.0-477.13.1.el8_8.x86_64
+  kernel-uek-5.4.17-2136.321.4.el8uek.x86_64
+  keyutils-libs-devel-1.5.10-9.el8.x86_64
+  krb5-devel-1.18.2-22.0.1.el8_7.x86_64
+  libatomic-8.5.0-18.0.2.el8.x86_64
+  libcom_err-devel-1.45.6-5.el8.x86_64
+  libfdt-1.6.0-1.el8.x86_64
+  libkadm5-1.18.2-22.0.1.el8_7.x86_64
+  libnetapi-4.17.5-2.0.1.el8.x86_64
+  libselinux-devel-2.9-8.el8.x86_64
+  libsepol-devel-2.9-3.el8.x86_64
+  libtpms-0.9.1-2.20211126git1ff6fe1f43.module+el8.8.0+21044+01700444.x86_64
+  libtraceevent-1.5.3-1.el8.x86_64
+  libverto-devel-0.3.2-2.el8.x86_64
+  libwpe-1.10.0-4.el8.x86_64
+  linux-firmware-core-999:20230315-999.18.gitc761dbe8.el8.noarch
+  mdevctl-1.1.0-2.el8.x86_64
+  mpdecimal-2.5.1-3.el8.x86_64
+  openssl-devel-1:1.1.1k-9.el8_7.x86_64
+  openssl-pkcs11-0.4.10-3.el8.i686
+  oracle-indexhtml-8-7.0.2.el8.noarch
+  pcre2-devel-10.32-3.el8_6.x86_64
+  pcre2-utf32-10.32-3.el8_6.x86_64
+  python3-magic-5.33-24.el8.noarch
+  python3.11-3.11.2-2.el8_8.1.x86_64
+  python3.11-cffi-1.15.1-1.el8.x86_64
+  python3.11-cryptography-37.0.2-5.el8.x86_64
+  python3.11-libs-3.11.2-2.el8_8.1.x86_64
+  python3.11-pip-wheel-22.3.1-2.el8.noarch
+  python3.11-ply-3.11-1.el8.noarch
+  python3.11-pycparser-2.20-1.el8.noarch
+  python3.11-pyyaml-6.0-1.el8.x86_64
+  python3.11-setuptools-wheel-65.5.1-2.el8.noarch
+  python3.11-six-1.16.0-1.el8.noarch
+  qemu-kvm-docs-15:6.2.0-32.module+el8.8.0+21044+01700444.x86_64
+  qemu-kvm-hw-usbredir-15:6.2.0-32.module+el8.8.0+21044+01700444.x86_64
+  qemu-kvm-ui-opengl-15:6.2.0-32.module+el8.8.0+21044+01700444.x86_64
+  qemu-kvm-ui-spice-15:6.2.0-32.module+el8.8.0+21044+01700444.x86_64
+  samba-dcerpc-4.17.5-2.0.1.el8.x86_64
+  samba-ldb-ldap-modules-4.17.5-2.0.1.el8.x86_64
+  scl-utils-1:2.0.2-16.0.1.el8.x86_64
+  shadow-utils-subid-2:4.6-17.el8.x86_64
+  sshpass-1.09-4.el8.x86_64
+  swtpm-0.7.0-4.20211109gitb79fd91.module+el8.8.0+20990+60c1530a.x86_64
+  swtpm-libs-0.7.0-4.20211109gitb79fd91.module+el8.8.0+20990+60c1530a.x86_64
+  swtpm-tools-0.7.0-4.20211109gitb79fd91.module+el8.8.0+20990+60c1530a.x86_64
+  tcl-1:8.6.8-2.el8.x86_64
+  wpebackend-fdo-1.10.0-3.el8.x86_64
+
+Complete!
+[root@fcypri014332 ~]#
+[root@fcypri014332 ~]#
+[root@fcypri014332 ~]# sudo yum install openssh-server
+Last metadata expiration check: 1:22:47 ago on Sat 15 Jul 2023 06:14:08 AM -07.
+Package openssh-server-8.0p1-17.0.1.el8.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+[root@fcypri014332 ~]# sudo ufw allow ssh
+sudo: ufw: command not found
+[root@fcypri014332 ~]# sudo yum -y install openssh-server openssh-clients
+Last metadata expiration check: 1:26:57 ago on Sat 15 Jul 2023 06:14:08 AM -07.
+Package openssh-server-8.0p1-17.0.1.el8.x86_64 is already installed.
+Package openssh-clients-8.0p1-17.0.1.el8.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+[root@fcypri014332 ~]# chkconfig sshd on
+Note: Forwarding request to 'systemctl enable sshd.service'.
+[root@fcypri014332 ~]# service sshd start
+Redirecting to /bin/systemctl start sshd.service
+[root@fcypri014332 ~]# netstat -tulpn | grep:22
+bash: grep:22: command not found...
+[root@fcypri014332 ~]# netstat -tulpn | grep :22
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      3214763/sshd
+tcp6       0      0 :::22                   :::*                    LISTEN      3214763/sshd
+[root@fcypri014332 ~]# AllowUsers ankit
+bash: AllowUsers: command not found...
+[root@fcypri014332 ~]# sudo vi /etc/ssh/sshd_config
+[root@fcypri014332 ~]# sudo ufw status
+sudo: ufw: command not found
+[root@fcypri014332 ~]# sudo yum -y install ufw
+Last metadata expiration check: 1:35:39 ago on Sat 15 Jul 2023 06:14:08 AM -07.
+No match for argument: ufw
+Error: Unable to find a match: ufw
+[root@fcypri014332 ~]# yum install -y epel-release
+Last metadata expiration check: 1:37:38 ago on Sat 15 Jul 2023 06:14:08 AM -07.
+Dependencies resolved.
+================================================================================
+ Package                  Arch    Version              Repository          Size
+================================================================================
+Installing:
+ oracle-epel-release-el8  x86_64  1.0-5.el8            ol8_baseos_latest   15 k
+Installing dependencies:
+ yum-utils                noarch  4.0.21-19.0.1.el8_8  ol8_baseos_latest   75 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 90 k
+Installed size: 41 k
+Downloading Packages:
+(1/2): oracle-epel-release-el8-1.0-5.el8.x86_64 123 kB/s |  15 kB     00:00
+(2/2): yum-utils-4.0.21-19.0.1.el8_8.noarch.rpm 462 kB/s |  75 kB     00:00
+--------------------------------------------------------------------------------
+Total                                           530 kB/s |  90 kB     00:00
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1
+  Installing       : yum-utils-4.0.21-19.0.1.el8_8.noarch                   1/2
+  Installing       : oracle-epel-release-el8-1.0-5.el8.x86_64               2/2
+  Running scriptlet: oracle-epel-release-el8-1.0-5.el8.x86_64               2/2
+/sbin/ldconfig: /etc/ld.so.conf.d/kernel-5.4.17-2102.201.3.el8uek.x86_64.conf:6: hwcap directive ignored
+
+  Verifying        : oracle-epel-release-el8-1.0-5.el8.x86_64               1/2
+  Verifying        : yum-utils-4.0.21-19.0.1.el8_8.noarch                   2/2
+
+Installed:
+  oracle-epel-release-el8-1.0-5.el8.x86_64 yum-utils-4.0.21-19.0.1.el8_8.noarch
+
+Complete!
+[root@fcypri014332 ~]# yum install -y ufw
+Oracle Linux 8 EPEL Packages for Development (x  27 MB/s |  49 MB     00:01
+Oracle Linux 8 EPEL Modular Packages for Develo 767 kB/s | 322 kB     00:00
+Last metadata expiration check: 0:00:01 ago on Sat 15 Jul 2023 07:52:27 AM -07.
+Dependencies resolved.
+================================================================================
+ Package    Architecture  Version               Repository                 Size
+================================================================================
+Installing:
+ ufw        noarch        0.35-14.el8           ol8_developer_EPEL        223 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 223 k
+Installed size: 875 k
+Downloading Packages:
+ufw-0.35-14.el8.noarch.rpm                      112 kB/s | 223 kB     00:01
+--------------------------------------------------------------------------------
+Total                                           111 kB/s | 223 kB     00:02
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1
+  Installing       : ufw-0.35-14.el8.noarch                                 1/1
+  Running scriptlet: ufw-0.35-14.el8.noarch                                 1/1
+/sbin/ldconfig: /etc/ld.so.conf.d/kernel-5.4.17-2102.201.3.el8uek.x86_64.conf:6: hwcap directive ignored
+
+  Verifying        : ufw-0.35-14.el8.noarch                                 1/1
+
+Installed:
+  ufw-0.35-14.el8.noarch
+
+Complete!
+[root@fcypri014332 ~]# sudo ufw allow ssh
+ERROR: problem running
+[root@fcypri014332 ~]# sudo ufw status
+Status: inactive
+[root@fcypri014332 ~]# sudo ufw enable
+Command may disrupt existing ssh connections. Proceed with operation (y|n)? y
+Firewall is active and enabled on system startup
+[root@fcypri014332 ~]# sudo ufw status
+Status: active
+
+To                         Action      From
+--                         ------      ----
+SSH                        ALLOW       Anywhere
+224.0.0.251 mDNS           ALLOW       Anywhere
+22                         ALLOW       Anywhere
+SSH (v6)                   ALLOW       Anywhere (v6)
+ff02::fb mDNS              ALLOW       Anywhere (v6)
+
+[root@fcypri014332 ~]# sudo ufw allow 22/tcp
+Rule added
+Rule added (v6)
+[root@fcypri014332 ~]# sudo ufw allow ssh
+Skipping adding existing rule
+Rule added (v6)
+[root@fcypri014332 ~]# sudo ufw status
+Status: active
+
+To                         Action      From
+--                         ------      ----
+SSH                        ALLOW       Anywhere
+224.0.0.251 mDNS           ALLOW       Anywhere
+22                         ALLOW        Anywhere
+22/tcp                     ALLOW       Anywhere
+SSH (v6)                   ALLOW       Anywhere (v6)
+ff02::fb mDNS              ALLOW       Anywhere (v6)
+22/tcp (v6)                ALLOW       Anywhere (v6)
+22 (v6)                    ALLOW       Anywhere (v6)
+
+[root@fcypri014332 ~]# netstat -anpl|grep ssh
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      3214763/sshd
+tcp        0      0 192.168.225.167:22      192.168.88.70:50476     ESTABLISHED 3156440/sshd: z004t
+tcp6       0      0 :::22                   :::*                    LISTEN      3214763/sshd
+tcp6       0      0 ::1:42948               ::1:22                  ESTABLISHED 3159157/ssh
+tcp6       0      0 ::1:22                  ::1:42948               ESTABLISHED 3159160/sshd: root
+unix  3      [ ]         STREAM     CONNECTED     7891046  3159160/sshd: root
+unix  3      [ ]         STREAM     CONNECTED     7880278  3156440/sshd: z004t
+unix  2      [ ]         STREAM     CONNECTED     7890029  3159317/sshd: root@
+unix  3      [ ]         STREAM     CONNECTED     7880281  3157092/sshd: z004t
+unix  2      [ ]         DGRAM                    7880199  3156440/sshd: z004t
+unix  2      [ ]         STREAM     CONNECTED     7880290  3157092/sshd: z004t
+unix  2      [ ]         STREAM     CONNECTED     7887731  3159160/sshd: root
+unix  2      [ ]         STREAM     CONNECTED     7877464  3156440/sshd: z004t
+unix  3      [ ]         STREAM     CONNECTED     7891045  3159317/sshd: root@
+unix  2      [ ]         STREAM     CONNECTED     7881478  3156440/sshd: z004t
+unix  2      [ ]         DGRAM                    7891042  3159160/sshd: root
+unix  3      [ ]         STREAM     CONNECTED     7880282  3156440/sshd: z004t
+unix  2      [ ]         STREAM     CONNECTED     7886789  3159157/ssh
+unix  2      [ ]         STREAM     CONNECTED     7887746  3159160/sshd: root
+unix  2      [ ]         STREAM     CONNECTED     7877468  3156440/sshd: z004t
+unix  3      [ ]         STREAM     CONNECTED     8196487  3214763/sshd

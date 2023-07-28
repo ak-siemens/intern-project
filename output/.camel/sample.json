@@ -1,0 +1,11 @@
+{"user": {
+    "firstname": "Rohan",
+    "address": {
+        "pincode": 110005,
+        "city": "New Delhi",
+        "street": "6400, Block7B",
+        "state": "Delhi"
+    },
+    "age": 23,
+    "lastname": "Sakkarwal"
+}}

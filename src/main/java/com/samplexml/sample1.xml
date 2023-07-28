@@ -1,0 +1,14 @@
+<user>
+	<firstname>Rohan</firstname>
+	<lastname>Sakkarwal</lastname>
+	<age>21</age>
+	<address>
+	   <street>6400, Block7B</street>
+	   <city>New Delhi</city>
+	   <state>Delhi</state>
+	   <pincode>110005</pincode>
+	</address>
+</user>
+		
+		
+	

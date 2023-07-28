@@ -1,0 +1,34 @@
+to be added in .bashrc file
+/home/ankitkumar
+export HBASE_HOME=/home/ankitkumar/hbase/hbase-2.4.17
+export PATH=$PATH:$HBASE_HOME/bin
+
+source ~/.bashrc
+
+
+//get inside home/ankitkumar directory and do following
+wget --no-check-certificate https://dlcdn.apache.org/hbase/2.4.17/hbase-2.4.17-bin.tar.gz
+tar xzf hbase-2.4.17-bin.tar.gz
+
+
+
+in hbase-env.sh add java path
+sudo vi $HBASE_HOME/conf/hbase-env.sh
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.372.b07-1.el7_9.x86_64
+
+
+in hbase-site.xml add some config  (create hbase and zookeeper directory make sure to set its permission to be chmod 777 dir)
+sudo vi $HBASE_HOME/conf/hbase-site.xml
+// in between <configuration>  </configuration>
+<property>
+  <name>hbase.rootdir</name>
+   <value>file://home/ankitkumar/hbasefiles</value>
+ </property>
+<property>
+<name>hbase.zookeeper.property.dataDir</name>
+<value>/home/ankitkumar/zookeeper</value>
+</property>
+
+start-hbase.sh
+jps to see HMaster running
+hbase shell

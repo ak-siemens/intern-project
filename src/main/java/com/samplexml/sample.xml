@@ -1,0 +1,8 @@
+<ns2:Root-Element   xmlns:ns2="http://TargetNamespace.com/GetMeterReadVersionForSDP_Request_request">
+    <ns2:sdpRequest>
+        <ns2:measTypeUDCIdList/>
+        <ns2:svcPtUdcId>707057500092397973</ns2:svcPtUdcId>
+        <ns2:usageEndTime>2020-01-17T00:00:00+01:00</ns2:usageEndTime>
+        <ns2:usageStartTime>2020-01-16T00:00:00+01:00</ns2:usageStartTime>
+    </ns2:sdpRequest>
+</ns2:Root-Element>

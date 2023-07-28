@@ -1,0 +1,170 @@
+Prerequisite Test
+=============================
+//create following directory structure in your user directory Documents/hadoop
+
+sudo yum update
+sudo yum install java-1.8.0-openjdk-devel
+
+java -version; javac -version
+
+sudo yum install openssh-server openssh-clients -y
+/home/eip/hadoop
+ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+chmod 0600 ~/.ssh/authorized_keys
+ssh localhost                                       //wait here it takes time
+
+
+
+//Be careful double check things at every step
+Downloading Hadoop 
+===============================
+//get inside Documents/hadoop directory and do following
+wget --no-check-certificate https://downloads.apache.org/hadoop/common/hadoop-3.2.3/hadoop-3.2.3.tar.gz
+tar xzf hadoop-3.2.3.tar.gz
+
+
+Editng 6 important files
+=================================
+1st file
+===========================
+
+//return to your user directory
+sudo vi .bashrc                        // we are editing through vim here vim commands i to insert esc to comeout and type :wq to save and exit
+//sudo cat .bashrc                      // cat filename  # for viewing the file after changes
+#Add below lines in this file
+
+#Hadoop Related Options
+export HADOOP_HOME=/home/ankitkumar/hadoop/hadoop-3.2.3
+export HADOOP_INSTALL=$HADOOP_HOME
+export HADOOP_MAPRED_HOME=$HADOOP_HOME
+export HADOOP_COMMON_HOME=$HADOOP_HOME
+export HADOOP_HDFS_HOME=$HADOOP_HOME
+export YARN_HOME=$HADOOP_HOME
+export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
+export PATH=$PATH:$HADOOP_HOME/sbin:$HADOOP_HOME/bin
+
+
+
+
+source ~/.bashrc
+
+2nd File
+============================
+sudo vi $HADOOP_HOME/etc/hadoop/hadoop-env.sh
+#Add below line in this file in the end
+
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.372.b07-1.el7_9.x86_64
+export PATH=$JAVA_HOME/bin:$PATH
+
+
+
+3rd File
+=====================cat==========
+//change your gid everywhere
+sudo vi $HADOOP_HOME/etc/hadoop/core-site.xml
+
+#Add below lines in this file(between "<configuration>" and "<"/configuration>")
+   <property>
+        <name>hadoop.tmp.dir</name>
+        <value>/home/ankitkumar/hadoop/tmpdata</value>
+        <description>A base for other temporary directories.</description>
+    </property>
+    <property>
+        <name>fs.default.name</name>
+        <value>hdfs://localhost:9000</value>
+        <description>The name of the default file system></description>
+    </property>
+
+4th File
+====================================
+sudo vi $HADOOP_HOME/etc/hadoop/hdfs-site.xml
+
+#Add below lines in this file(between "<configuration>" and "<"/configuration>")
+
+
+<property>
+  <name>dfs.data.dir</name>
+  <value>/home/ankitkumar/hadoop/dfsdata/namenode</value>
+</property>
+<property>
+  <name>dfs.data.dir</name>
+  <value>/home/ankitkumar/hadoop/dfsdata/datanode</value>
+</property>
+<property>
+  <name>dfs.replication</name>
+  <value>1</value>
+</property>
+
+
+
+5th File
+================================================
+
+sudo vi $HADOOP_HOME/etc/hadoop/mapred-site.xml
+
+#Add below lines in this file(between "<configuration>" and "<"/configuration>")
+cat
+<property>
+  <name>mapreduce.framework.name</name>
+  <value>yarn</value>
+</property>
+
+6th File
+==================================================
+sudo vi $HADOOP_HOME/etc/hadoop/yarn-site.xml
+
+#Add below lines in this file(between "<configuration>" and "<"/configuration>")
+
+<property>
+  <name>yarn.nodemanager.aux-services</name>
+  <value>mapreduce_shuffle</value>
+</property>
+<property>
+  <name>yarn.nodemanager.aux-services.mapreduce.shuffle.class</name>
+  <value>org.apache.hadoop.mapred.ShuffleHandler</value>
+</property>
+<property>
+  <name>yarn.resourcemanager.hostname</name>
+  <value>127.0.0.1</value>
+</property>
+<property>
+  <name>yarn.acl.enable</name>
+  <value>0</value>
+</property>
+<property>
+  <name>yarn.nodemanager.env-whitelist</name>
+  <value>JAVA_HOME,HADOOP_COMMON_HOME,HADOOP_HDFS_HOME,HADOOP_CONF_DIR,CLASSPATH_PERPEND_DISTCACHE,HADOOP_YARN_HOME,HADOOP_MAPRED_HOME</value>
+</property>
+
+
+Launching Hadoop
+==================================
+go to hadoop-3.2.3/bin directory
+hadoop namenode -format
+
+go to hadoop-3.2.3/sbin
+./start-all.sh
+
+type "sudo jps" to see if every node is working
+
+-----------------------------------------------------------------------------------------------------------
+
+// try to resolve the hostname exception error
+
+
+// if you get below error change its permission #chmod 777 directory_name
+/home/z004tfpu/Documents/hadoop/tmpdata/dfs/name/current
+
+
+
+
+if user nodes not defined error define it in the env.sh file
+
+export HDFS_NAMENODE_USER=root
+export HDFS_DATANODE_USER=root
+export HDFS_SECONDARYNAMENODE_USER=root
+export YARN_RESOURCEMANAGER_USER=root
+export YARN_NODEMANAGER_USER=root
+
+
